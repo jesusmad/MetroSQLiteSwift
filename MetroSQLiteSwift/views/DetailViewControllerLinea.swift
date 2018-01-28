@@ -25,14 +25,11 @@ class DetailViewControllerLinea: UIViewController, UITableViewDelegate, UITableV
     }
     
     func configureView() {
-        let color = HexToUIColor.convertColor(hex: linea.color)
-        var colorWithAlpha = color.withAlphaComponent(0.5)
         lblLineaDetail.text = linea.nombre
-        lblLineaDetail.textColor = colorWithAlpha
         lblIniFinDetail.text = linea.inicioFin
-        lblIniFinDetail.textColor = colorWithAlpha
+        let color = HexToUIColor.convertColor(hex: linea.color)
         lblTopBackground.backgroundColor = color
-        colorWithAlpha = color.withAlphaComponent(0.8)
+        let colorWithAlpha = color.withAlphaComponent(0.8)
         self.view.backgroundColor = colorWithAlpha
         tableViewDetail.backgroundColor = colorWithAlpha
     }
