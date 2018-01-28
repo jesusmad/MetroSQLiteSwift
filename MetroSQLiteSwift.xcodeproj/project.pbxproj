@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA31539A201D31DD00685C67 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315399201D31DD00685C67 /* Util.swift */; };
+		EA31539C201D31F600685C67 /* Linea.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA31539B201D31F600685C67 /* Linea.swift */; };
+		EA31539E201D31FF00685C67 /* Estacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA31539D201D31FF00685C67 /* Estacion.swift */; };
+		EA3153A0201D320D00685C67 /* DaoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA31539F201D320D00685C67 /* DaoManager.swift */; };
+		EA3153A2201D329700685C67 /* metro.bd.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = EA3153A1201D329600685C67 /* metro.bd.sqlite */; };
+		EA3153A4201D390F00685C67 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3153A3201D390F00685C67 /* MyTableViewCell.swift */; };
+		EA3153A6201D3ACA00685C67 /* MainViewControllerLinea.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3153A5201D3ACA00685C67 /* MainViewControllerLinea.swift */; };
+		EA315422201D4FCE00685C67 /* DetailViewControllerLinea.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315421201D4FCE00685C67 /* DetailViewControllerLinea.swift */; };
+		EA315424201D520F00685C67 /* HexToUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315423201D520F00685C67 /* HexToUIColor.swift */; };
+		EA315426201D58C300685C67 /* MyTableViewCellDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA315425201D58C300685C67 /* MyTableViewCellDetail.swift */; };
 		EAF01A28201D2DAA00AF2C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF01A27201D2DAA00AF2C6E /* AppDelegate.swift */; };
-		EAF01A2A201D2DAA00AF2C6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF01A29201D2DAA00AF2C6E /* ViewController.swift */; };
 		EAF01A2D201D2DAA00AF2C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF01A2B201D2DAA00AF2C6E /* Main.storyboard */; };
 		EAF01A2F201D2DAA00AF2C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF01A2E201D2DAA00AF2C6E /* Assets.xcassets */; };
 		EAF01A32201D2DAA00AF2C6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF01A30201D2DAA00AF2C6E /* LaunchScreen.storyboard */; };
@@ -34,9 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA315399201D31DD00685C67 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		EA31539B201D31F600685C67 /* Linea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linea.swift; sourceTree = "<group>"; };
+		EA31539D201D31FF00685C67 /* Estacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estacion.swift; sourceTree = "<group>"; };
+		EA31539F201D320D00685C67 /* DaoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaoManager.swift; sourceTree = "<group>"; };
+		EA3153A1201D329600685C67 /* metro.bd.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = metro.bd.sqlite; sourceTree = "<group>"; };
+		EA3153A3201D390F00685C67 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		EA3153A5201D3ACA00685C67 /* MainViewControllerLinea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerLinea.swift; sourceTree = "<group>"; };
+		EA315421201D4FCE00685C67 /* DetailViewControllerLinea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerLinea.swift; sourceTree = "<group>"; };
+		EA315423201D520F00685C67 /* HexToUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexToUIColor.swift; sourceTree = "<group>"; };
+		EA315425201D58C300685C67 /* MyTableViewCellDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCellDetail.swift; sourceTree = "<group>"; };
 		EAF01A24201D2DAA00AF2C6E /* MetroSQLiteSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetroSQLiteSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF01A27201D2DAA00AF2C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EAF01A29201D2DAA00AF2C6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EAF01A2C201D2DAA00AF2C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAF01A2E201D2DAA00AF2C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAF01A31201D2DAA00AF2C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +92,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA315392201D309000685C67 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EA3153A3201D390F00685C67 /* MyTableViewCell.swift */,
+				EA3153A5201D3ACA00685C67 /* MainViewControllerLinea.swift */,
+				EA315421201D4FCE00685C67 /* DetailViewControllerLinea.swift */,
+				EA315425201D58C300685C67 /* MyTableViewCellDetail.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		EA315395201D31B500685C67 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				EA315398201D31CB00685C67 /* entities */,
+				EA315397201D31C600685C67 /* dao */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		EA315396201D31BC00685C67 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				EA315399201D31DD00685C67 /* Util.swift */,
+				EA315423201D520F00685C67 /* HexToUIColor.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		EA315397201D31C600685C67 /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				EA31539F201D320D00685C67 /* DaoManager.swift */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
+		EA315398201D31CB00685C67 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				EA31539B201D31F600685C67 /* Linea.swift */,
+				EA31539D201D31FF00685C67 /* Estacion.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
 		EAF01A1B201D2DAA00AF2C6E = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +161,15 @@
 		EAF01A26201D2DAA00AF2C6E /* MetroSQLiteSwift */ = {
 			isa = PBXGroup;
 			children = (
+				EA315396201D31BC00685C67 /* util */,
+				EA315395201D31B500685C67 /* models */,
+				EA315392201D309000685C67 /* views */,
 				EAF01A27201D2DAA00AF2C6E /* AppDelegate.swift */,
-				EAF01A29201D2DAA00AF2C6E /* ViewController.swift */,
 				EAF01A2B201D2DAA00AF2C6E /* Main.storyboard */,
 				EAF01A2E201D2DAA00AF2C6E /* Assets.xcassets */,
 				EAF01A30201D2DAA00AF2C6E /* LaunchScreen.storyboard */,
 				EAF01A33201D2DAA00AF2C6E /* Info.plist */,
+				EA3153A1201D329600685C67 /* metro.bd.sqlite */,
 			);
 			path = MetroSQLiteSwift;
 			sourceTree = "<group>";
@@ -234,6 +301,7 @@
 			files = (
 				EAF01A32201D2DAA00AF2C6E /* LaunchScreen.storyboard in Resources */,
 				EAF01A2F201D2DAA00AF2C6E /* Assets.xcassets in Resources */,
+				EA3153A2201D329700685C67 /* metro.bd.sqlite in Resources */,
 				EAF01A2D201D2DAA00AF2C6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAF01A2A201D2DAA00AF2C6E /* ViewController.swift in Sources */,
+				EA3153A4201D390F00685C67 /* MyTableViewCell.swift in Sources */,
+				EA3153A0201D320D00685C67 /* DaoManager.swift in Sources */,
 				EAF01A28201D2DAA00AF2C6E /* AppDelegate.swift in Sources */,
+				EA3153A6201D3ACA00685C67 /* MainViewControllerLinea.swift in Sources */,
+				EA31539A201D31DD00685C67 /* Util.swift in Sources */,
+				EA315422201D4FCE00685C67 /* DetailViewControllerLinea.swift in Sources */,
+				EA315426201D58C300685C67 /* MyTableViewCellDetail.swift in Sources */,
+				EA31539C201D31F600685C67 /* Linea.swift in Sources */,
+				EA315424201D520F00685C67 /* HexToUIColor.swift in Sources */,
+				EA31539E201D31FF00685C67 /* Estacion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
